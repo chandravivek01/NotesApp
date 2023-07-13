@@ -1,0 +1,43 @@
+.notes {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 320px;
+    padding: 20px;
+    /* background-color: blueviolet; */
+    border-radius: 25px;
+}
+
+.notes_title {
+    font-size: x-large;
+    font-weight: 700;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.notes_text {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: large;
+    line-height: 1.875rem;
+}
+
+.notes_footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notes_footer img {
+    width: 30px;
+    cursor: pointer;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.notes:hover .notes_footer img {
+    opacity: 1;
+}
